@@ -14,5 +14,14 @@ sh 'mvn clean package'
 }
 }
 
+stage('Deploy'){
+steps{
+input 'Do you approve the Deployment ?'
+		echo 'Deploying...............' 
+
+}
+}
+
+
 }
 }
