@@ -19,6 +19,8 @@ steps{
 input 'Do you approve the Deployment ?'
 		echo 'Deploying...............' 
 
+sh "'nohup java -jar /Users/admin/.jenkins/workspace/mkYong_weProj/target/spring-boot-web-jsp-1.0.war &'"
+
 }
 }
 
