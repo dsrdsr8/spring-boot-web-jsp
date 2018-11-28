@@ -4,7 +4,7 @@ stages {
 
 stage('Checkout'){
 steps{
-git 'https://github.com/dsrdsr8/git_pet_Clinic.git'
+git 'https://github.com/dsrdsr8/spring-boot-web-jsp.git'
 }
 }
 
