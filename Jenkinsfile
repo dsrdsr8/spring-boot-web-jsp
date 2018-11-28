@@ -17,7 +17,7 @@ sh 'mvn package'
 stage('Deploy'){
 steps{
 
-sh "'nohup java -jar /Users/admin/.jenkins/workspace/mkYong_weProj/target/spring-boot-web-jsp-1.0.war&'"
+sh "'nohup java -jar /Users/admin/Desktop/cd-docker-ansible/mkYong/spring-boot-web-jsp/spring-boot-web-jsp-1.0.war&'"
 
 }
 }
